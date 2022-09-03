@@ -126,7 +126,7 @@ header {
     /* MAIN CONTENT */
 
 main {
-    background: url(/images/bg-image.png);
+    background: url(../images/bg-image.png);
     background-size: 50%;
 }
 .new {
@@ -180,7 +180,7 @@ main {
     display: flex;
 }
 .jersey-view {
-    background: url(/images/adidas-logo.svg) no-repeat, url(/images/jersey-bg.png) no-repeat;
+    background: url(../images/adidas-logo.svg) no-repeat, url(../images/jersey-bg.png) no-repeat;
     background-size: 10%, 100%;
     background-position: top 8% right 11%, center;
     align-items: center;

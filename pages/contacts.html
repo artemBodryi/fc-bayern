@@ -274,5 +274,11 @@
     </nav>
 
     <script src="../js/form-validation.js"></script>
+    <script>
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            removeValidation();
+            checkFieldsOnEmpty();
+        });
+    </script>
 </body>
-    
