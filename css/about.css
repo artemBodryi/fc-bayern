@@ -1,6 +1,9 @@
 * {
     font-family: 'FC Sans','Helvetica Neue',Arial,sans-serif;
 }
+html {
+    min-width: 1440px;
+}
 
 .margin {
     margin-top: 20px;
